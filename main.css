@@ -1,0 +1,26 @@
+
+.center {
+text-align: center;
+}
+
+#mario {
+  margin-top: 20%;
+  animation: bounce 4s infinite alternate;
+  -webkit-animation: bounce 4s infinite alternate;
+}
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-70px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-70px);
+  }
+}
